@@ -1,5 +1,5 @@
-
-In the following diagram we can ses the all the containers and how they are comuniscting each other.
+**Containers Architechture:**
+In the following diagram we can ses the all the containers and how they are comunicating each other.
 if we want access to kafka manager in order to manage all the topic, partitions etc- we will access with port 9000- http://<ip>:9000
 the external and internal port of kafka is 9092, and 2181 for zookeeper.
 In addtion we can see that exists on my architecture two additional containers:
